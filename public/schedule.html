@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule | PRSPS</title>
+    <meta name="description" content="Full schedule for the Puerto Rico Sports Performance Summit, including session times, topics and speakers." />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <script defer src="js/main.js"></script>
+    <script defer src="js/schedule.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"><img src="assets/logo.jpg" alt="PRSPS logo" /></a>
+        <nav class="site-nav" id="site-nav">
+          <ul>
+            <!-- Link to the external Square site for ticket purchases -->
+            <li><a href="https://baseline-pt-llc.square.site" target="_blank" rel="noopener">Tickets</a></li>
+            <li><a href="schedule.html" class="active">Schedule</a></li>
+            <!-- Speakers link temporarily hidden until speaker details are ready -->
+            <!-- <li><a href="speakers.html">Speakers</a></li> -->
+            <li><a href="about.html">About</a></li>
+            <!-- Sponsors link removed until sponsors are confirmed -->
+          </ul>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation">
+          <!-- Inline hamburger icon for better visibility -->
+          <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section-muted">
+        <div class="container">
+          <h1 class="section-heading">Event Schedule</h1>
+          <p>The Puerto Rico Sports Performance Summit is a one‑day event taking place on May 16, 2026. Enjoy a full day of interactive presentations, hands‑on workshops and networking opportunities. All times are listed in Atlantic Standard Time (AST).</p>
+        </div>
+      </section>
+
+      <section class="section section-light">
+        <div class="container">
+          <div id="schedule-container" class="schedule-container">
+            <!-- Schedule will be inserted here by schedule.js -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 Puerto Rico Sports Performance Summit. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="scholarship.html">Scholarship</a></li>
+          <!-- Sponsors link removed until sponsors are confirmed -->
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
