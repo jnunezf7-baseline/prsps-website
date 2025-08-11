@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conferenciantes | PRSPS</title>
+    <meta name="description" content="Conoce a los expertos que hablarán en la Cumbre de Rendimiento Deportivo de Puerto Rico. Infórmate sobre nuestros conferenciantes principales y ponentes." />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <script defer src="../js/main.js"></script>
+    <script defer src="../js/speakers.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"><img src="../assets/logo.jpg" alt="Logotipo de PRSPS" /></a>
+        <nav class="site-nav" id="site-nav">
+          <ul>
+            <li><a href="https://baseline-pt-llc.square.site" target="_blank" rel="noopener">Entradas</a></li>
+            <li><a href="schedule_es.html">Programa</a></li>
+            <!-- El enlace de conferenciantes sigue oculto hasta que se actualicen los detalles -->
+            <!-- <li><a href="speakers_es.html" class="active">Conferenciantes</a></li> -->
+            <li><a href="about_es.html">Acerca de</a></li>
+            <li><a href="../speakers.html">EN</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir navegación">
+          <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="section section-muted">
+        <div class="container">
+          <h1 class="section-heading">Conferenciantes</h1>
+          <p>Nuestro programa incluye a expertos líderes en medicina deportiva, rehabilitación y ciencia del rendimiento de organizaciones de División 1 y profesionales de los Estados Unidos y Puerto Rico.</p>
+        </div>
+      </section>
+      <section class="section section-light">
+        <div class="container">
+          <div class="card-grid" id="speakers-grid">
+            <!-- Las tarjetas de los conferenciantes se insertarán mediante speakers.js -->
+          </div>
+          <div id="bios-container" class="bios-container" style="margin-top: 3rem;"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 Cumbre de Rendimiento Deportivo de Puerto Rico. Todos los derechos reservados.</p>
+        <ul class="footer-links">
+          <li><a href="about_es.html">Acerca de</a></li>
+          <li><a href="scholarship_es.html">Beca</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
