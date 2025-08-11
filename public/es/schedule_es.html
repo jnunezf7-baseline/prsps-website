@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programa | PRSPS</title>
+    <meta name="description" content="Programa completo de la Cumbre de Rendimiento Deportivo de Puerto Rico, con horarios de sesiones, temas y conferenciantes." />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <script defer src="../js/main.js"></script>
+    <script defer src="../js/schedule_es.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"><img src="../assets/logo.jpg" alt="Logotipo de PRSPS" /></a>
+        <nav class="site-nav" id="site-nav">
+          <ul>
+            <li><a href="https://baseline-pt-llc.square.site" target="_blank" rel="noopener">Entradas</a></li>
+            <li><a href="schedule_es.html" class="active">Programa</a></li>
+            <!-- <li><a href="speakers_es.html">Conferenciantes</a></li> -->
+            <li><a href="about_es.html">Acerca de</a></li>
+            <li><a href="../schedule.html">EN</a></li>
+          </ul>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Abrir navegación">
+          <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section-muted">
+        <div class="container">
+          <h1 class="section-heading">Programa del evento</h1>
+          <p>Únete a nosotros el 16 de mayo de 2026 para un día completo de presentaciones interactivas, demostraciones en vivo y valiosas oportunidades de networking. Todos los horarios están en hora estándar del Atlántico (AST).</p>
+        </div>
+      </section>
+
+      <section class="section section-light">
+        <div class="container">
+          <div id="schedule-container" class="schedule-container">
+            <!-- El programa se insertará aquí mediante schedule_es.js -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 Cumbre de Rendimiento Deportivo de Puerto Rico. Todos los derechos reservados.</p>
+        <ul class="footer-links">
+          <li><a href="about_es.html">Acerca de</a></li>
+          <li><a href="scholarship_es.html">Beca</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
