@@ -1,0 +1,21 @@
+/*
+ * Styles for the event countdown displayed in the site header.
+ * This element appears beneath the navigation bar and informs
+ * visitors how long remains until the summit. The styling is
+ * lightweight to complement existing typography and colours.
+ */
+
+.event-countdown {
+  font-family: var(--font-body, 'Open Sans', sans-serif);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary, #041629);
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .event-countdown {
+    font-size: 1.2rem;
+  }
+}
