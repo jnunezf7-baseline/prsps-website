@@ -1,0 +1,47 @@
+{
+  "date": "2026-05-16",
+  "sessions": [
+    {
+      "time": "9:00 AM – 9:15 AM",
+      "session": "Opening Remarks",
+      "speaker": "Summit Host",
+      "description": "Welcome and introduction to the day’s agenda."
+    },
+    {
+      "time": "9:15 AM – 10:30 AM",
+      "session": "Keynote Presentation",
+      "speaker": "Invited Speaker",
+      "description": "Insights into cutting‑edge sports science."
+    },
+    {
+      "time": "10:30 AM – 12:00 PM",
+      "session": "Panel Discussion",
+      "speaker": "Expert Panel",
+      "description": "Round‑table discussion on athlete rehabilitation."
+    },
+    {
+      "time": "12:00 PM – 1:00 PM",
+      "session": "Lunch Break",
+      "speaker": "—",
+      "description": "Network with fellow attendees over lunch."
+    },
+    {
+      "time": "1:00 PM – 3:00 PM",
+      "session": "Hands‑On Workshop",
+      "speaker": "Guest Coaches",
+      "description": "Interactive training techniques and demonstrations."
+    },
+    {
+      "time": "3:00 PM – 4:00 PM",
+      "session": "Breakout Sessions",
+      "speaker": "Various",
+      "description": "Choose from specialized topics to dive deeper."
+    },
+    {
+      "time": "4:00 PM – 5:00 PM",
+      "session": "Closing & Networking",
+      "speaker": "Summit Host",
+      "description": "Reflections, closing remarks and informal networking."
+    }
+  ]
+}
