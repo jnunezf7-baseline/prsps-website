@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule | PRSPS</title>
+    <meta name="description" content="Full schedule for the Puerto Rico Sports Performance Summit, including session times, topics and speakers." />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <script defer src="js/main.js"></script>
+    <script defer src="js/schedule.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9YYBM0T5T9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-9YYBM0T5T9');
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html" class="logo"><img src="assets/logo.jpg" alt="PRSPS logo" /></a>
+        <nav class="site-nav" id="site-nav">
+          <ul>
+            <!-- Link to the external Square site for ticket purchases -->
+            <li><a href="https://baseline-pt-llc.square.site" target="_blank" rel="noopener">Tickets</a></li>
+            <li><a href="schedule.html#day2" class="active">Schedule</a></li>
+            <!-- Speakers link temporarily hidden until speaker details are ready -->
+            <!-- <li><a href="speakers.html">Speakers</a></li> -->
+            <li><a href="about.html">About</a></li>
+            <!-- Sponsors link removed until sponsors are confirmed -->
+          </ul>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation">
+          <!-- Inline hamburger icon for better visibility -->
+          <svg class="nav-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Day 1: Fundraising event (Free) -->
+      <section class="section section-muted" id="day1">
+        <div class="container">
+          <h1 class="section-heading">Day 1 – Friday, May 15</h1>
+          <p>Fundraising Event (Free)</p>
+          <!-- Language detail for Day 1 -->
+          <p class="language-detail">This evening programme will be presented entirely in <strong>Spanish</strong>.</p>
+          <div class="table-responsive">
+            <table class="schedule-table">
+              <tbody>
+                <tr>
+                  <td>6:00 PM – 8:00 PM</td>
+                  <td>Fundraising Event</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Day 2: Main summit schedule populated dynamically -->
+      <section class="section section-light" id="day2">
+        <div class="container">
+          <h1 class="section-heading">Day 2 – Saturday, May 16</h1>
+          <p>Main Summit</p>
+          <!-- Language detail for Day 2 -->
+          <p class="language-detail">All summit sessions will be conducted in <strong>English</strong>.</p>
+          <div id="schedule-container" class="schedule-container">
+            <!-- Schedule for the main summit will be inserted here by schedule.js -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 Puerto Rico Sports Performance Summit. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <!-- Scholarship link removed -->
+          <!-- Sponsors link removed until sponsors are confirmed -->
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
