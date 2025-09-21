@@ -1,0 +1,22 @@
+[
+  {
+    "tier": "Hall of Fame",
+    "name": "Puerto Rico Tourism Company",
+    "logo": "sponsor_hof.jpg"
+  },
+  {
+    "tier": "All‑Star",
+    "name": "Island Health Partners",
+    "logo": "sponsor_allstar.jpg"
+  },
+  {
+    "tier": "Rising Star",
+    "name": "Caribbean Fitness Co.",
+    "logo": "sponsor_rising.jpg"
+  },
+  {
+    "tier": "Community",
+    "name": "Local Physiotherapy Clinic",
+    "logo": "sponsor_community.jpg"
+  }
+]
